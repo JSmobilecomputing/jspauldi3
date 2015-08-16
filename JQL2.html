@@ -1,0 +1,54 @@
+<!-- Week1 content (l12)-->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Week 01</title>
+  <!-- #Step1:  Import jQueryMobile CSS, Javescript and themes from the CDN -->   
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+  <!-- #Step2:  Every page must use the data-role format -->
+  <div data-role="page" id="home">
+    <!-- Step3:  Create our first JQuery elements -->
+    <div data-role="header"> 
+      <h1>Welcome to week 1</h1>
+    </div>
+
+    <div data-role="main" class="ui-content"> 
+      <h2>Welcome to Lukes Labs</h2>
+      <p>Luke is pretty chill and will help you out as much as he can to get you to pass this unit :)</p>
+      <!-- Used for page navigation-->
+      <a href="#page2">Who is Luke?</a>
+    </div> 
+    
+    <div data-role="footer">
+      <h2>&copy; Luke Pearce</h2>
+    </div> 
+    
+  </div>
+  
+  <!-- Start our second page -->
+  <div data-role="page" id="page2">
+    <div data-role="header"> 
+      <h1>Who is Luke?</h1>
+    </div>
+
+    <div data-role="main" class="ui-content"> 
+      <h2>I do not like green eggs and ham</h2>
+      <p>I do not like them, Luke I am.</p>
+      <a href="#home">Back home</a>
+    </div> 
+    
+    <div data-role="footer">
+      <h2>&copy; Luke Pearce</h2>
+    </div> 
+    
+  </div>
+
+</body>
+</html>
